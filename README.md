@@ -1,3 +1,9 @@
+---
+title: 3D-Genesis
+app_file: gradio_app.py
+sdk: gradio
+sdk_version: 5.5.0
+---
 **[中文版本](README_zh.md)**
 
 **[日本語版](README_jp.md)**

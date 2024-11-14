@@ -4,8 +4,8 @@ if __name__ == "__main__":
     sys.path.append(os.curdir)
     if 'CUDA_VISIBLE_DEVICES' not in os.environ:
         os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-    os.environ['TRANSFORMERS_OFFLINE']='0'
-    os.environ['DIFFUSERS_OFFLINE']='0'
+    os.environ['TRANSFORMERS_OFFLINE']='1'
+    os.environ['DIFFUSERS_OFFLINE']='1'
     os.environ['HF_HUB_OFFLINE']='0'
     os.environ['GRADIO_ANALYTICS_ENABLED']='False'
     os.environ['HF_ENDPOINT']='https://hf-mirror.com'
